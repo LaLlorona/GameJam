@@ -1,0 +1,7261 @@
+fileFormatVersion: 2
+guid: a3a6446d4764cb043b4e19622a170f98
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: SunnyLand_by_Ansimuz_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 16
+      height: 16
+    spriteID: c48db22ff9215e24eb6d3b628b60cc87
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 320
+      width: 16
+      height: 16
+    spriteID: adda4e7a3c5bb03459fd33ae0084a939
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 91e19e1b9f6fbca47a0bdc57ab13f6be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 320
+      width: 16
+      height: 16
+    spriteID: dad80f4e8e62d244e94f8e2c31aaa404
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 320
+      width: 16
+      height: 16
+    spriteID: e4136ad94a53da44ca679cd837ca555a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 320
+      width: 16
+      height: 16
+    spriteID: a7f2498d46f99d14b91ea0b06254eaa4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 79e2f1f521838034bb8c5aa3ee2a270a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 5540ba16db7fe2548907cfdd89caa605
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 07a5a22ef453af34aa130b28bd459c10
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 9f14cb7d4e26e8243970114d1a9ef16b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 320
+      width: 16
+      height: 16
+    spriteID: bf21530c75bd7fe4c8addffa1c369b4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 320
+      width: 16
+      height: 16
+    spriteID: d3b5ef2fa8398564183c85303cfa90ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 320
+      width: 16
+      height: 16
+    spriteID: fcb94131990dcbb44904998b69a4c2b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 320
+      width: 16
+      height: 16
+    spriteID: b4a835a5f02bc744a9b311f5bfd5fddd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 5fba6b54c0379904fbf9acb7186e1bc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 3d93d78992f023d4fb3867e01f81e830
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 320
+      width: 16
+      height: 16
+    spriteID: efe9f86ffc8e65a46bbcce80ab1a2cb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 3949e46f365800545bb2467d58f036d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 1c38b0c41f66f324bb0a2378fb4b9e9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 57d8258fef5f4de43b62bcd790c62780
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 320
+      width: 16
+      height: 16
+    spriteID: d91d9a58a07c46040961d96f2cbd6cc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 9c4810a2040ec3448a8582e0f74bf43d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 320
+      width: 16
+      height: 16
+    spriteID: e011df6ffb69d884e8f62e062ae15e70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 16
+      height: 16
+    spriteID: afaa3a7c934f59b4fa198633bdb8675c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 304
+      width: 16
+      height: 16
+    spriteID: fe1dffb24c564a04f9a0c5278d2ae10d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 304
+      width: 16
+      height: 16
+    spriteID: a8bf842735ca31440932a8bdb22c1c21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 304
+      width: 16
+      height: 16
+    spriteID: c59e6c09514e74d4db4f88a8825bcbc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9ed94574986852449a8d7fd098dc7164
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 304
+      width: 16
+      height: 16
+    spriteID: fb7785ceaaf63b849b24da7e72238aa2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 4cf4c8e9e02e3cf4290d01732fa237a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 340f6eb30f01c864995774baf0128aaf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 304
+      width: 16
+      height: 16
+    spriteID: b7cad711c84fa744ea5087c179990c4d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 1d0fb78af65753b42929a9c84f9f6016
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 84636879282275e458fa1e60fab5d7c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 686e63d48d0eaea4ba2cbd24c2046597
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 6068dfe0f4ef76045a713feefb1289cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 818b67542301b4e459c2af8090a7c9d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 304
+      width: 16
+      height: 16
+    spriteID: a1ac59e1cf1a1f549a8cdd9df0a9091b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 4d52f84924142bd488dc95f085fc68db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 12a1d057b5343aa448a4e1ab1ae44afa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 50ccce87ce6e00a46b1a7bc5334448b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 58c6e17237c5381459b118fc6b78d96a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 86e837ba74df8f749a9418f198fed051
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 172ddd0712759044291da1e64b3e704d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 304
+      width: 16
+      height: 16
+    spriteID: a22cb3d3731723b48a61d4f5f9330898
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 304
+      width: 16
+      height: 16
+    spriteID: fe1f5e1e65526b848b2cb506077f74f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 16
+      height: 16
+    spriteID: caaed2df1e67f8a4987f84bfcacb481d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 288
+      width: 16
+      height: 16
+    spriteID: e41cc19da5a5c3946bb04f56d9503227
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 081c46a5e6508894fb9695c70ec6f347
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 288
+      width: 16
+      height: 16
+    spriteID: bbc2138dd5383394381851c12a978bce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 2df09c287620f2f4d8b799aaff031ee1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 288
+      width: 16
+      height: 16
+    spriteID: bc4506d7c6b51244f9962311c71dce53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 16
+      height: 16
+    spriteID: d6b83a82b03bdf649859dd6d0075efea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 288
+      width: 16
+      height: 16
+    spriteID: cea52614f647c5547b6e84304ee06bd5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 288
+      width: 16
+      height: 16
+    spriteID: b2e4ca4c9dc2d5f41bde40c2bbb91f01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 7bc0559446c387247af4358f4e176e44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 288
+      width: 16
+      height: 16
+    spriteID: d7fe77ead14940f41ac67b104a2658b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 288
+      width: 16
+      height: 16
+    spriteID: c8fcee6ec232c764ab22b98095289f27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 3bb648c7fb5e624429de1027572c5718
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 6221db80c3c83cf4786bf77802752c7f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 3d2483e6224aca74a8284d3bb833925b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 86d08a594fb5f7b46b82e8adf616f2c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 93d9efa0e2e061e4d85c441c40e9c528
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 288
+      width: 16
+      height: 16
+    spriteID: c11d526b19b066f489559ec3fcc72410
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 9be8ac4a24bb3324087e6f77bd460ff9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 30c1f13d952c35f48b83c0c0ed5e25d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 288
+      width: 16
+      height: 16
+    spriteID: a4d4db911ae611746a35d9fc90d618c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 6edc32a370f646a40b8069408bd32ba9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 5292cf061bc69fe4fa110202b134268d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d64d7696c2402d7418aab1a9b853135e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 272
+      width: 16
+      height: 16
+    spriteID: c8065f29750b8794abde472e1b7ecd8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 272
+      width: 16
+      height: 16
+    spriteID: c52cc08c06d7ee14c9e521f433b9cfe4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 84e981bb9f642344db9423f24464739e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 04a672b6e0aea6f4ab3f7c103d3a9dcd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 61ab14772fea3d54ca065472de39bf53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 02e0cf14c2e128543bf2ebb8952e9951
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 5b7dddd59fb9e9a46b968f1a6a22bcfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 2378c5930261d374bbb65321be618c71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 112f94028cb210b4fa5954f0bfc7323d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 20ca7456b47f40c45b57e88dbdb5c64a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 3660aa14145d72d43a17e66a2ca94e1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 154d51909e79f5a4d958f39929469fa4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 683ff55176bf7e54d90ce9b65b9d88a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d49bbbb1dcb1bdc4e95b00628dbae841
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 0af23e1ba4010eb4f9d7ff4aeb04bd7b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 272
+      width: 16
+      height: 16
+    spriteID: ad99c1145a610c947a1fec60f1bbd4d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 864a0317a2f93574e8695d6a7a1cda6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 272
+      width: 16
+      height: 16
+    spriteID: cb475174728ba8645afd6d16daed583c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 2dff4caa1d61a67408897eb3e4cff793
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 7e75f5b350dd2994b963227ee5a9659f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 14ac7abae37e93849a3ffe88278b3dc0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 6eb03b479261bc74d84d23b7ad49f740
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a8af6c17a16ecdd4385495639f19d6a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 256
+      width: 16
+      height: 16
+    spriteID: c5eef65369e90764981610e9e81c1043
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 2a5b8ccc14d3fea4f8a293c75c97b4f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 256
+      width: 16
+      height: 16
+    spriteID: dedf11148566e9c468b7199ce3169e9c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 13318ab48ddcaa4449e808cca1ff19f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 256
+      width: 16
+      height: 16
+    spriteID: c5c08c76efd73e64dbd7c89520c1c5b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 00cc248ed6d96b944892853099fb6690
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 256
+      width: 16
+      height: 16
+    spriteID: dc69124ce30a61c408fbd30da6ae1478
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 256
+      width: 16
+      height: 16
+    spriteID: b54989de51eca5a4f8ba5724277ee3fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 9ecea503b026e0541940a804617fcc51
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 00fe6f05c6eb13545a1e957e07da8f70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 7c69b66b323b4884aafe8362b24fee80
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 256
+      width: 16
+      height: 16
+    spriteID: cfa627e55b331fc4d8a3778d76f4e7d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 4f52ff590c884314b89fb48072edf377
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 1bb9d4ae65a6599479e85cb5d5067e0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 239574e425ab58841921be69dcb5b690
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 34d41c345eeb563429eb93c1fcae0644
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 256
+      width: 16
+      height: 16
+    spriteID: e4893de9c6709f248a7d60dda59b90e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 881611473efd3b447a095fa8ab7af111
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a1b70a565f7ecab41a77728ec23b5480
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 58edd360a000a644ab353809582121f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a1219c8b1781841408204cc13907afc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 256
+      width: 16
+      height: 16
+    spriteID: fbe43fb15acee454faab180f6e10eaea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: aec486b3e9da17e4c962145a7dda409e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 06f0516c28d9073479faa65dcac44574
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 6524a00255b0d8644996ac838161d332
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 8fa20794017d36f4fb8f6bf7a7e04c64
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 43052f0249a70c34399e9e98e084de95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: e4561129dc77de746bb22c0f7baaba61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: a91b9ef27259144478aa4bcee82b5a6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3f26b7f721d885b4480ef79ec336e841
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d918bd2a541dc1a489e1782cd6a70a13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 52a18d720f130d94983ebb5c865a2946
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c03409381ca7b7943bb9af5b0956d29c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4628762a05a049442ac84fd4cd7e5782
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 69f2d0822a2d92c47ab35472b7c801a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: b25f96722d351204097b339137010ccd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: b9b057ec5ebedd94291526dc0b896026
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 2cb3e0cf404360241b036b82acbfe7d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 40da0f2c662e3d54b91b109250193596
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 9578880b32b69024ea097cc965917108
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 1f8d782f22aae65449324b6be0440abd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5481f03cc0d630e40af28451e1365b68
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5d2010b3f899e2b47a16ad770e3aefa6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 79f8fb3a8ae7a274d9b25247f20bce27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 240
+      width: 16
+      height: 16
+    spriteID: a78afbb2ec8db734282a689b3c8fd9ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 958944518e11b434e96d3fd37feaecaf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 216d91e133ccd4e4990a0b152db02e28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9adeb715e84e63f47af4a4204d26e41c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9f4dbfa4cc5cc9847b2c75bb401b396a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f890853276c01f64590753720668c69a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f343b3517498ed24781fad712d3f6e05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7b74e7b825c6b02449f129567a4915d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 3c7a84753549bff45bd1feff0365d840
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 96fd3e22af278514baab47dbb58f05dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 85665ec856dde224f8253a99dedef5a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 66d242b61e86a7e49acc267e9f4f4097
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f98a979b2ac1dc546b79db2a42244ae6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8d0e5993e4b1b1f4a869027e1404e3b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 527ddca376c7f014c90f96edfc409017
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b73cf5253e4f32b488febc1c9fbdd6d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 964a2cab57bc24d43a5c2cd3982e6aa3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 72280c27eccae4049891ece51acf960b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 0157bc1d22935ee41a483e4755be6f06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8dbb489155751f24c94d78cc2b9f002c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 82888182d4d41ec458f7478dbcb775a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b7a81acc845bf3745acc887d11e38090
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 320f9d7129e83ac489c98819b30631a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 80262e57e3c8d5148b3aa4c36d33ef12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: fc9317235da8a004f946c35b07d04a4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4f785260693a3c348b696666c7834b2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: b9c054fb8673f8a46b7d3efd8e831d18
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 86c32af2b7d0b404a866e7f3672be775
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 983dde17a372e76469100b7453cbd679
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4537b58deab6ddc4e877c005dad5339d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 89b4978817ebbf1429a23eff0cd3f5ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: cca386620024b464580c1f0828892dca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 300847ab96d1c40409557c381b3ba9b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d5f794b69b854d647a1195e6f84779b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 58351f7ce8ad4f6458aed4b2c1a505c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4dd2836f565eca94f966ad29dc5bcc60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e45eb66b2bb70d24790c9a5d39cf15de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6d4236e622366bb4ea183a2ad3b81aef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 2c99f65608e4d3f44a96bdf2f92ed656
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6fc1826ea796d6d45a15eb029bfe8fe4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 208
+      width: 16
+      height: 16
+    spriteID: cede6db60735419489d3d904d0a1d538
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 208
+      width: 16
+      height: 16
+    spriteID: fd950479e19b4514f9f083bf5e7936d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6a8b7e1ce9972c0428c096ea3f6b7495
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d9a66ef7a1a195742ada5915915b17b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 208
+      width: 16
+      height: 16
+    spriteID: cb95f037fbb47af45bfc961dd0f96f52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6fbfbfcc46f4d5845a324dbd14ee1686
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 71b8f053a496ecc45b7daefa1d2d9be7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 9c476796c318bad409272d00ff4b8ecb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 06966ae30e5c8da45b3d035b0968d33c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c03459e7d587d284789c263195bd0b55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: eb242abc0ae2f6f478864a5b7dd5166d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c873ec116c0cbaa4586cd724e344b8f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ea090b9d7b9e838499b84bb825a269b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 09a7aeb449f1e864e9f84c372f5b0bad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c9fb8aa0ee2571e41b7749f8d492c507
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 63edb68205825c643b8db1b38845f84b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: f5aa1fa0c749f4547ba4e071497278ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: de14fcbd445df2d47a29b168b2fe1412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: dc66f5ce4bfcdd94992333707f8e9212
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a90936cc0dd5d1445ba64b81ffd2e91f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c34c1ad4723c7b9408db9cb8b69cd71d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 90620b3980496f94f94aae33c26e023a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6c94d75f5bfe39a4cae0cf435d084ae1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 159eb3795f942004ca3784a59a2a1095
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 592270c426d1afd45af997375bbf86f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 40333d90a87e16541b6a3f9eba4f2bed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 86dab5d3220ed4e428b391576b8c46df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e234dd17c6bbb5b49ba8dad5378d6687
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 23950110c470f1948869d50ec6c3b034
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 471c65badd51de7489892c6c0011eda2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 794b9a4a1bccda64baa36dd274f5b448
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 21570ed536c59bf41aa245fa85aec8f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9162f5a027f8e324787de50246f862eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c4cc455fa4091314db1205084e154482
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 89c16726b62a5104e99ac1ba8c30c683
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: bd432398dd349e14c89181400e75e0f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 21261f2a6d1ab8644a71081c85a0d8e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 3b3c343c0fa3010468a4d59685eac68e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 49fe74296bd02a14c8543895017874b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 1b0b1c9b535f28a4aa9aa9a3dd03b573
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a043c19b500ba304689a6fef456ac9d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2de3115188475034e82fb3d6b25d4964
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a36caaa46707ba044bfa0c15bcac165e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 851a4440f2cb43f49a3994c3039d7a00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c01a1320bd3fcf74fb4a0d68354a2210
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 758c51e532c650743b944ecc5603ea0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5be78c4d3ea26d54483ee3da146e56ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6106d09ab3fbced428aef552f95fffa0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 176
+      width: 16
+      height: 16
+    spriteID: cdc5b850787274f4e996244f399c9018
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e85ff1bfd1cee4f40995462754067e4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9a545da01cb9cfa47a752d6bf4e8c103
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 95abf39a57f9c224b94a74c83c8bd844
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 46a5ab32b1f7dc640a83166b90c76514
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e8f463563f1012c419221c749b1338fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 3956fd3a500957b49ae433499f32c76c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5f0bab20ab1b5084c9f4c0f15d153d52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 831a89a41c7c65040b1c0413c7a87329
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 231d5262a94c3cb42a46d656056302c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 665b900766527584ebb69e3d80578e7b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ea2fb3540cb7ff844a5c980eb7640708
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ac8de57a618ced345b6718d363225b71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: d23046f32a0c9d54da92305aa4a09fbd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7642937256d671b47b099322bd9f4b92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a3afc78f14648d34c9a32d548e0d5e05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: abfbc98e7cd02b042bca17a40b3a4d1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 08e4b77f5fed17746a63193ae27ddbe8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: fced0d86dfb46b04d88e06dc2742d6ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 6be147ec17c1d674f81b8eea287a9b9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b405dbaed4ac0824ebf4a67f7ab1bae8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 3de7314fdc3383844a47533d83924bfe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9ee682204d9caec4586cfa9c21155f3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 53114051b9135cf41ac4b2762877ab98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 18bf862fd5a3a8e48ace930ac99ba9ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 60b76637c49beb34dab08752b60fafd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 160
+      width: 16
+      height: 16
+    spriteID: bb3e673fb4fe1304c9de83501e58d8dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ae4b5e217f962bd448fab27716c41588
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7169ce47d5d522842b671a65410d0c33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 454864a9c2bae39479ef5446a236db35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6c020e1ff212ce541b889259112ef9b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f3f2fd49fb45b7948bf44d4ce9640653
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a55893dbba431484bb6adfc840f98ffb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 32b3449471ba106418ab690f40318521
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2331472bbd67d9d489c02b2610577655
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 1d9509634a35a92479300c8c3a66a052
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 8b3c90a92365dd341b29b7f6bb556ea8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 19890dfc66ab42c4daf9f2a27faf7b89
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f0ff7154b09884d4e9cbd946c4e9b8b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 266ec3847b98e0e43a3cd19c66c38548
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4e6cb57bb3da79f4caf0b70352f105c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4f42089193dc098458740975d9654e28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: fb23dd705766a32439b470ad783154e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 76e283ac07b14c2469972fe631d20621
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6cd14c19947c7334f90f413317745193
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4a88b816f8d78ce47a73df117cbb5299
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d037949fd380a934ab45b942ec3d6aad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e871579aa465b1848a4d6f48aad8b377
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4a3a9f538bd38274882d031c218143af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 33a2726b8d4eb0e4891144db6e345592
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f8978c1fca3e2d949a320b308e80a20c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 562665de7d80803419e0fe9c83a6d4c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ac36278d8c0d6c04fbd1540f47a8289a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: acdf181c28cd5ec4381ed1ebd7470b34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1a6a2983059e47b4a8157eed87e50353
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e12239dfca4325f4c8fb0380420ea989
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b08fbecc07fa4a741bb09aebcbea2989
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f3d1389464050f149b6557dd3720dbe4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 40d0225a4d46c9e4cb2fa7e0f2218aba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a9608fc43992a994a8f892fe3350e761
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 49b9b6603570ef448a1cff7ab6e6e1ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9cb7f589ed2678e46a799f338de151e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ac1e41c2b9233b648bc1d3dd60d098be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_288
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5eaf24786763ff2448d3133143f2d028
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_289
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c23bd430de803d7428851603735449ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_290
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b36b2030943973340a84c1df92604822
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_291
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 36adfa7e6f1019541ac874ff91e114b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_292
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 92c80af17950237488b4e65f2a9c4763
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_293
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 4face095522f2d64783a8b80b95764d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_294
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 349f02411380bf44090b20386dc6bd2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_295
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 090c14d33779e18449bbbb03f0f9e734
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_296
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ab45c8add24133f4fbb13e06ea6112de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_297
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7929de4966148fb40a09646d7e2c133d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_298
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 360855622b0e8ce48a2a7a4ab764f124
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_299
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ba924c27d96ee4d47bc4d4c654fa552b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_300
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0a4e17dd1d992d34e9b096cadbb9d914
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_301
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 06e2990c6ab19ac4b9965ded99598f07
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_302
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 3095bc91d8a5c5f4cad50e76a3e60e1b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_303
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 24a37d650457698469f72578cfe1ce0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_304
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 358f7ee26ac108d4d89daf52ebdf37ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_305
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 56b648ffd5aee6b48b06817640f2bbd7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_306
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c18f877e6199f5144b1c9639a06af740
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_307
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5d8d9af392bb32646b4e8c384192cce1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_308
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 99145fb40eddf5940a571e1022e67c03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_309
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: dca8cec5fc1316145b690a646dee2591
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_310
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 10102cfc80fdb8645b50e8baef0315e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_311
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 3c3b9e92c50231544a30705cbe6e3425
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_312
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 68ad725e0d8d0e2489d64f58b94255fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_313
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e71eb40e56d03e64a89a324c9d8c02f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_314
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7c7f8316e0226a841a9fd99bea766250
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_315
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5f36ed9e48eed8441ac56356852b1d47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_316
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 881b2ae48c92f8540adf6a5739b15174
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_317
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 112
+      width: 16
+      height: 16
+    spriteID: bcad5afc17307d04b806f041cd25d5a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_318
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 3fe0858194b667945acbd664815bbf6b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_319
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 51157126c96437743b92676863710f60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_320
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 34f497bbf738b8849b97b28779c536ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_321
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 112
+      width: 16
+      height: 16
+    spriteID: de2ad79512152f84bad6778842534216
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_322
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: df5a42ff4ba09ec46a61501f252d76a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_323
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 53276edd262ede747b4f9afafe84e5e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_324
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b363b32cec667b744ae7b0a17f564598
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_325
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e343973d749ee3b4ead5cf72d1bd3b00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_326
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: cd0b76cdae9043f43a996f2699d3a2d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_327
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c289a269d22cea34fa7477c777f70b72
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_328
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 01112b6e25699764cb87c7af59f2a8dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_329
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 04154523b8205d04b929bac3d85d926d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_330
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: bf748f6eea2690b4f9bf1caf44275e96
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_331
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b722cd1dc0448c547b8fad3b27b9e78a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_332
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: db4b0261f8516aa419489361dc26bad8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_333
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 08706a387555b6a4b9cf1a2cbe99d3b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_334
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0ebdf1bb21ee5a24783ee1e42d7a2f60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_335
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c12eb24d9997088418c599134b0c6f22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_336
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3f00fd13001d23545b3937e155af2ad3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_337
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a383097f72872b048b2d1db8c66f8aa8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_338
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e3a99f380d89bb94cb95de186b45640d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_339
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fef55d3d3fd4ad848827bc58afdf207b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_340
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 022c8116c246c8644ac9a19d846d6b27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_341
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d1842f160877aa84daabca1c84061779
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_342
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c7426596e0661614ea5e061ee17e3f73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_343
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ffae889dd3f791243b5afd5a13c6386e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_344
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ff9c3368ea602fe43844324a5bfbb870
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_345
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 861fb7a09e05e204b8ad473ab4608dd1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_346
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6536bc1d72dd6044c816485425ea01ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_347
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9eabba4fb3d34d14b9c7e3fc81496343
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_348
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e971b0b5d32cddf458732d4461ebe90a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_349
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d025581b97a3f3145b79da880ab4e7ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_350
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f291dfc99a69182489025e211edb4809
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_351
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 90831a0fe8dd2b242afb784975266adb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_352
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3ff2b0cc0970b994590e58dcf8eea08a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_353
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f58bd58ab46adc14d91a21b16b37f052
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_354
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6d1e4515573c605418e4ef06c24553cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_355
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a60fb8bcb2dc39944a9be595ca43a3de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_356
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 983b9bdcd8d4fec488a67f16e44d6201
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_357
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e8278ac9ab9ab214f8520a0cff6a34cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_358
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3ec7a4001c8e6d945ab562e569e8456c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_359
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ce4058cecc7b3354abacdc27b4f40fa3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_360
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 42d3a05e00717c74cb73a99ef8513686
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_361
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8348d4ce71ac72548a33410340f75b77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_362
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bfdc60f98cf39d249b31b99e381c3da5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_363
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5b671110f7c122b41b5dd5484798553a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_364
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 61f839cd5122f7445893f483cd64d8d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_365
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 46488d1729f4c5e48a8cd64bfff225a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_366
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3c7954c3b93db7c4bbe5ee868488c862
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_367
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e4fd668aeeaf1e0428abc671fedb439c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_368
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b21ae31f81e3cfc448b558ef59697ef9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_369
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8f1185b905f8fd44a90785c74a676e2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_370
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 85092f8c947e10d44af9df237e95e75d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_371
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 5a093b6650a095141b02da4e95336344
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_372
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ec1fda494db7e27498d143b6b6be1220
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_373
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d38fb09f36251724eb316a76016398fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_374
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d520a79b5d324c2438ee307fdb545a17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_375
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ea48208df91cd7444912b1422897076f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_376
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 631aceaf060c3e54a9e5a30dcc036050
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_377
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 390e24225c125114083c6d86af8b9515
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_378
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8907cb1e6dca733408e2904e21e91418
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_379
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8ce2393c983e89345960f718a5f81399
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_380
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c141d33b86060f644adbb9f4ffadaa63
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_381
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 73bca5bd32dee154a8769a273db7237b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_382
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 19494690bccb30f4b95cdb62fde5ba26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_383
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 85d14d4383a56b94c923102e2839b920
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_384
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 875293c8f22dce047bae2236cc00d144
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_385
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c01d02b69d17a1648baa29f295da5e76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_386
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9736af1099331594798ece444d508a60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_387
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e247c1372d2f6424eaee1e1eae16f9ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_388
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2b571d4597cfbce43a5f973ebd54f994
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_389
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fa268da85de40d04db703ba53dc59a00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_390
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3b5cdfa3cdb549e4fad21605f86947c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_391
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5c87e0333170c5640b24d03477611ec4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_392
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d66e7eb12e1159b41b4817a0e15458ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_393
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 117b78d47f67f6f4993d194877c06fce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_394
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5ff620877d9f56640ac2a778e68c9802
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_395
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8dfa3f129e66ca04ab76df067e294bc8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_396
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1863b36bbdb86484db48e51447a1bf21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_397
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ed80ad73081360347af78b143e378ca5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_398
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 93f4cfe02ae319a419da58baddc121cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_399
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 76745bde12079ba4cb6062209535dc7c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_400
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 94ad4f2190630564a9f3fa19c9a0ece4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_401
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b713e276df016374fa238118340c55a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_402
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ddc71d27dbb527d45b888a2f8ec94815
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_403
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: edf3ad7de7b83e14c871b18af60e7d67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_404
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 60794fbe4b152854e8886adebf3141e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_405
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c8e2ed0825cd596419a463e497f99264
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_406
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 34b5982d258a24547befe16f63998f5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_407
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f979777beec68cc40a035ca2c4d579f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_408
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 16db236918a6b8345bd4f063083cc494
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_409
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 833223342f36b824e85107cebe8051ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_410
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 15735a6e9a3e7024f8293155c5df2803
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_411
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7f02a309a0eba2f4f8d04136204e1f36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_412
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c5043cfbd54164a43a52e2c0876e4c95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_413
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 52d3b0d60b37e9540917a7b0b9481997
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_414
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b120ab14a03fe77428307b47e5b22538
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_415
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 40750fd8435990149bb128f9d66edaeb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_416
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7a9de01bc3e8ed147841509cb9e59d02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_417
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a8f5ac08348eb744db3b59193bed8a19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_418
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3efc3eadc9622e4488e0d61ebbc0bb76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_419
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 725e36d5b6a7aaa4d842cef42b693aea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_420
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: cfeef49e227735243bd2fac0ec4f8ecb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_421
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 571992b0380c156459ffb91ae068af9c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_422
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c654675f5a5e68640940822f5f135138
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_423
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4bf9f60821ecbe24ba422f1ab4e4af19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_424
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 86ebfdfd659246440a5831d08a5f3916
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_425
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3988de0510829784db0b82c40bd3000e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_426
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c92f9e69051026d498362bf9f929bfcb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_427
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e01bec6d8b033f6459aee0f76ea54679
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_428
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9251d1b57d3afe94694c5a17b78620fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_429
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ecd9103fc1f29bd448a6efe6c038b48b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_430
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 11fce6df2a480f74fb6d398de87929af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_431
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ba51c27ce34a47e4994f0054bcff59a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_432
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f6c337dca85697d4b87fc30b6a19dc42
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_433
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2637b9ed67109ae489da64ae4a8f4b2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_434
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a2ef25b1db6135946b3cfcf793f3dffd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_435
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6f7e4f17154f65e46a177eadc6e4c987
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_436
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 175c89c3418a05b4e9505cfc829dd876
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_437
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 65ebe8d2956b0e24c92e6115efb5b63e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_438
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fa0056bc1cfab98418afde9e956ad8f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_439
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c0a3497b9ae849648b0636f253183a29
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_440
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8e199dc6d2d7b1a4bb58e4bd49d47a1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_441
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 481ebbf1725c41e43be2772d429e0375
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_442
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 93da7da303b75f64485e1709429fb947
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_443
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 242b8514d3866e241aeb5cd024b11728
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_444
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 52aaf18647cfd66428ebdd645ab55907
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_445
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0b7027cafac978d46aa0dbb0b4afd1f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_446
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bbea76116fbb3464e87e5124fca1d75b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_447
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d0cf13c4cfa9214418d6f53262589884
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_448
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2ccb09b4cbb54e94f8fe05fd41373630
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_449
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 696b3ade85844dc4ca53c7aa560a71a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_450
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d46680aeb5b62de4f8becf7ce42e87ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_451
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 19c5c147342e17f45bf227d370e57904
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_452
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e579dde1288f12d4e82c9ef8d7f92766
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_453
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e8234e44602025343ac439d396119a2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_454
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 035c3981e59e0c0438bde2d7fed490d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_455
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a7c6794e670a9cf4abbc18a7713a09d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_456
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fbfdad3520d703145b3bb831a103140a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_457
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5fdecbf2bda68e142b2bee48d734fe9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_458
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f198c93702eb2104fb74a2da81e935da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_459
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c4b0ad414029d494c8a93b4a89bebc79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_460
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: da0cee6b577b7944bbf505c630618758
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_461
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d82588521597d7442845f6be611d9e89
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_462
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 18df940c201edd44cbec07fdbb0077fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_463
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d4de801661b7bbb428464b60b293e0b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_464
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 690276e8a6154374a8ed869f4cd3bc1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_465
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: bd5b3e8f5c1d99746b56070551f1f20f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_466
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 211afb264b2646147ac159fb38676dfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_467
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9cc9bd7306343ac4abfef8187757dcbd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_468
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d6f43b95dd877ff459e432f6218eec02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_469
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f015f4d45f0607f418f502a9c28f0aff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_470
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9ddfda1b35542384b83f38a48c9e62a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_471
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a85fbb88669d80246909d0d3a8403dc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_472
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c543b87ed97d0a040b7a3fea2436027b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_473
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f566b6b8f2add444aaeac41e133bb1f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_474
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 20bda29d7bcc4ee4bba0ae01d829d561
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_475
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e26444d6a7f5e5d42acdf38c1fb98d72
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_476
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 87e2f370e8d795945b863d7452ac4210
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_477
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 79a5f186d4c1b3f4ebc9a02cad41ec80
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_478
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a6db6358a7e70444eba65e8eb1d27769
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_479
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b40f3249b91e6eb498f3f830c8e600e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_480
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8dc90d63a80c62943bcfbc2c31815863
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_481
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 47d2f48ff5f20474b901ff08a13c5733
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: SunnyLand_by_Ansimuz_482
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0e4b71d420fe4a648867be341740a667
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}
