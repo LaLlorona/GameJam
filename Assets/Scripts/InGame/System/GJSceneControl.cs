@@ -8,6 +8,7 @@ namespace GameJam.InGame.System
         [SerializeField] private Camera _mainCamera;
         [SerializeField] private GJUpdateLoopProvider _updateLoopProvider;
         [SerializeField] private GJAssetHolder _assetHolder;
+        [SerializeField] private GJInGameParameter _inGameParameter;
 
         private GJController _gameController;
 
@@ -20,7 +21,8 @@ namespace GameJam.InGame.System
         {
             var controllerParameter = new GJController.GJControllerParameter(
                 MainCamera: _mainCamera,
-                AssetHolder: _assetHolder
+                AssetHolder: _assetHolder,
+                InGameParameter: _inGameParameter
             );
             _gameController = new GJController(controllerParameter);
             await _gameController.InitializeGameController();

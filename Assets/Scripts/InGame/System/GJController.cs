@@ -1,5 +1,7 @@
 using System;
 using Cysharp.Threading.Tasks;
+using GameJam.InGame.Effect;
+using GameJam.InGame.Monster;
 using GameJam.InGame.Player;
 using UnityEngine;
 
@@ -9,7 +11,8 @@ namespace GameJam.InGame.System
     {
         public record GJControllerParameter(
             Camera MainCamera,
-            GJAssetHolder AssetHolder
+            GJAssetHolder AssetHolder,
+            GJInGameParameter InGameParameter
         );
 
         private readonly GJContextMap _contextMap;
@@ -17,12 +20,25 @@ namespace GameJam.InGame.System
 
         public GJController(GJControllerParameter controllerParameter)
         {
+            if (controllerParameter.InGameParameter == null)
+            {
+                throw new InvalidOperationException("GJSceneControl has no GJInGameParameter assigned.");
+            }
+
             _updateLoopManager = new GJUpdateLoopManager();
             _contextMap = new GJContextMap();
             _contextMap.Register(_updateLoopManager);
             _contextMap.Register(new GJGameStateManager());
             _contextMap.Register(new GJInputManager(controllerParameter));
+            _contextMap.Register(new GJMapManager(controllerParameter));
             _contextMap.Register(new GJPlayerMovementManager(controllerParameter));
+            _contextMap.Register(new GJPlayerManager(controllerParameter));
+            _contextMap.Register(new GJFlowGauge(controllerParameter));
+            _contextMap.Register(new GJPlayerProjectileManager(controllerParameter));
+            _contextMap.Register(new GJMonsterManager(controllerParameter));
+            _contextMap.Register(new GJEffectManager(controllerParameter));
+            _contextMap.Register(new GJHUDManager(controllerParameter));
+            _contextMap.Register(new GJCameraManager(controllerParameter));
         }
 
         public async UniTask InitializeGameController()
