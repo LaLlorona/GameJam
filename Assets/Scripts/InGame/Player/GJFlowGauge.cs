@@ -77,6 +77,17 @@ namespace GameJam.InGame.Player
             _elapsedTimeFromLastDecayTick = TimeSpan.Zero;
         }
 
+        // Called when the player is hit by a monster.
+        public void LoseFlowOnDamaged()
+        {
+            if (_isLocked)
+            {
+                return;
+            }
+
+            CurrentFlow = Mathf.Max(CurrentFlow - _inGameParameter.FlowGaugeLossOnDamaged, 0f);
+        }
+
         // While locked (Flow state) the gauge neither gains nor decays.
         public void SetLocked(bool isLocked)
         {

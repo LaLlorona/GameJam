@@ -33,6 +33,12 @@ namespace GameJam.InGame.Player
             _rigidbody2D.gravityScale = gravityScale;
         }
 
+        // Used for the invincible blink.
+        public void SetSpriteVisible(bool isVisible)
+        {
+            _spriteRenderer.enabled = isVisible;
+        }
+
         public void SetFacing(bool isFacingRight)
         {
             _spriteRenderer.flipX = !isFacingRight;

@@ -29,14 +29,18 @@ namespace GameJam.InGame.System
             _contextMap = new GJContextMap();
             _contextMap.Register(_updateLoopManager);
             _contextMap.Register(new GJGameStateManager());
+            _contextMap.Register(new GJGameRecord());
+            _contextMap.Register(new GJGameResultManager(controllerParameter));
             _contextMap.Register(new GJInputManager(controllerParameter));
             _contextMap.Register(new GJMapManager(controllerParameter));
             _contextMap.Register(new GJPlayerMovementManager(controllerParameter));
             _contextMap.Register(new GJPlayerManager(controllerParameter));
+            _contextMap.Register(new GJPlayerHitManager(controllerParameter));
             _contextMap.Register(new GJFlowGauge(controllerParameter));
             _contextMap.Register(new GJPlayerProjectileManager(controllerParameter));
             _contextMap.Register(new GJMonsterManager(controllerParameter));
             _contextMap.Register(new GJEffectManager(controllerParameter));
+            _contextMap.Register(new GJPostProcessManager(controllerParameter));
             _contextMap.Register(new GJHUDManager(controllerParameter));
             _contextMap.Register(new GJCameraManager(controllerParameter));
         }

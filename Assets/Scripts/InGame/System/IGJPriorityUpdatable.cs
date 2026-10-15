@@ -12,9 +12,10 @@ namespace GameJam.InGame.System
         MonsterUpdate = 4,
         PlayerProjectileUpdate = 5,
         PlayerHitCheckUpdate = 6,
-        PostProcessUpdate = 7,
-        HUDUpdate = 8,
-        CameraUpdate = 9,
+        GameTimerUpdate = 7,
+        PostProcessUpdate = 8,
+        HUDUpdate = 9,
+        CameraUpdate = 10,
         EffectUpdate = 100,
     }
 

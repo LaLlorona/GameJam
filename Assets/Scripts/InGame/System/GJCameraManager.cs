@@ -1,5 +1,6 @@
 using System;
 using Cysharp.Threading.Tasks;
+using GameJam.InGame.Player;
 using Unity.Cinemachine;
 using Unity.Cinemachine.TargetTracking;
 using UnityEngine;
@@ -8,6 +9,7 @@ namespace GameJam.InGame.System
 {
     // The main camera is driven by the in-game virtual camera through the CinemachineBrain.
     // The virtual camera is a standalone scene object that follows the player with a fixed world offset.
+    // Every Flow dash slash shakes the camera through a CinemachineCameraOffset applied after the confiner.
     public class GJCameraManager : IGJContext, IGJPriorityUpdatable
     {
         private readonly GJController.GJControllerParameter _parameter;
@@ -16,6 +18,15 @@ namespace GameJam.InGame.System
         private CinemachineFollow _follow;
         private CinemachineConfiner2D _confiner;
         private float _appliedOrthographicSize;
+
+        private GJPlayerManager _playerManager;
+        private CinemachineCameraOffset _shakeOffset;
+        private int _lastFlowDashSequence;
+        private Vector2 _shakeDashDirection;
+        private TimeSpan _shakeRemainingTime;
+        // Random start point in the noise so every shake looks different.
+        private float _shakeNoiseSeed;
+        private float _shakeElapsedSeconds;
 
         public GJCameraManager(GJController.GJControllerParameter parameter)
         {
@@ -59,6 +70,9 @@ namespace GameJam.InGame.System
             _follow = follow;
 
             SetUpConfiner(contextMap.GetRegisteredInstance<GJMapManager>().MapBoundsCollider);
+            SetUpShakeOffset();
+            _playerManager = contextMap.GetRegisteredInstance<GJPlayerManager>();
+            _lastFlowDashSequence = _playerManager.FlowDashSequence;
             ApplyParameter();
             contextMap.GetRegisteredInstance<GJUpdateLoopManager>().RegisterUpdatable(this);
         }
@@ -69,6 +83,56 @@ namespace GameJam.InGame.System
         public void GameUpdate(TimeSpan deltaTime)
         {
             ApplyParameter();
+            UpdateShake(deltaTime);
+        }
+
+        private void SetUpShakeOffset()
+        {
+            if (_inGameVirtualCamera.TryGetComponent(out _shakeOffset) == false)
+            {
+                _shakeOffset = _inGameVirtualCamera.gameObject.AddComponent<CinemachineCameraOffset>();
+            }
+            // After Body (follow + confiner), so the shake is not clamped away at the map edges.
+            _shakeOffset.ApplyAfter = CinemachineCore.Stage.Noise;
+            _shakeOffset.Offset = Vector3.zero;
+        }
+
+        private void UpdateShake(TimeSpan deltaTime)
+        {
+            var dashSequence = _playerManager.FlowDashSequence;
+            if (dashSequence != _lastFlowDashSequence)
+            {
+                _lastFlowDashSequence = dashSequence;
+                _shakeDashDirection = _playerManager.LastFlowDashDirection;
+                _shakeRemainingTime = _inGameParameter.CameraShakeDuration;
+                _shakeNoiseSeed = UnityEngine.Random.Range(0f, 100f);
+                _shakeElapsedSeconds = 0f;
+            }
+
+            if (_shakeRemainingTime <= TimeSpan.Zero)
+            {
+                _shakeOffset.Offset = Vector3.zero;
+                return;
+            }
+
+            _shakeElapsedSeconds += (float)deltaTime.TotalSeconds;
+            var durationSeconds = (float)_inGameParameter.CameraShakeDuration.TotalSeconds;
+            var ratio = durationSeconds > 0f
+                ? Mathf.Clamp01((float)_shakeRemainingTime.TotalSeconds / durationSeconds)
+                : 0f;
+            // Squared so the shake starts hard and settles quickly.
+            var strength = ratio * ratio;
+
+            // Perlin noise instead of per-frame random so the shake stays smooth at any frame rate.
+            var noiseTime = _shakeElapsedSeconds * _inGameParameter.CameraShakeFrequency;
+            var noise = new Vector2(
+                Mathf.PerlinNoise(_shakeNoiseSeed, noiseTime) * 2f - 1f,
+                Mathf.PerlinNoise(_shakeNoiseSeed + 50f, noiseTime) * 2f - 1f);
+
+            var offset = noise * _inGameParameter.CameraShakeAmplitude + _shakeDashDirection * _inGameParameter.CameraShakeDashKick;
+            _shakeOffset.Offset = offset * strength;
+
+            _shakeRemainingTime -= deltaTime;
         }
 
         // Keeps the camera view inside the LDtk map.

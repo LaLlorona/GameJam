@@ -14,6 +14,7 @@ namespace GameJam.InGame.System
         private GJMonsterManager _monsterManager;
         private GJPlayerManager _playerManager;
         private GJFlowGauge _flowGauge;
+        private GJGameRecord _gameRecord;
 
         public GJHUDManager(GJController.GJControllerParameter parameter)
         {
@@ -37,6 +38,9 @@ namespace GameJam.InGame.System
             _monsterManager = contextMap.GetRegisteredInstance<GJMonsterManager>();
             _playerManager = contextMap.GetRegisteredInstance<GJPlayerManager>();
             _flowGauge = contextMap.GetRegisteredInstance<GJFlowGauge>();
+            _gameRecord = contextMap.GetRegisteredInstance<GJGameRecord>();
+            // Shown once the monster spawns.
+            _hudComponent.SetHudVisible(false);
             contextMap.GetRegisteredInstance<GJUpdateLoopManager>().RegisterUpdatable(this);
         }
 
@@ -44,6 +48,7 @@ namespace GameJam.InGame.System
 
         public void GameUpdate(TimeSpan deltaTime)
         {
+            _hudComponent.SetElapsedTime(_gameRecord.ElapsedTime);
             UpdateFlow();
             UpdateMonsterHp();
         }
@@ -62,12 +67,11 @@ namespace GameJam.InGame.System
             var spawnedMonsters = _monsterManager.SpawnedMonsters;
             if (spawnedMonsters.Count == 0)
             {
-                _hudComponent.SetMonsterHpVisible(false);
                 return;
             }
 
             var monster = spawnedMonsters[0];
-            _hudComponent.SetMonsterHpVisible(true);
+            _hudComponent.SetHudVisible(true);
             _hudComponent.SetMonsterHp(monster.CurrentHp, monster.MaxHp);
         }
     }

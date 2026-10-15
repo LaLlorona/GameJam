@@ -14,6 +14,7 @@ namespace GameJam.InGame.Monster
         private readonly List<GJMonster> _spawnedMonsters = new();
         private readonly List<RaycastHit2D> _segmentCastResults = new();
         private GJPlayerManager _playerManager;
+        private GJGameResultManager _gameResultManager;
         private TimeSpan _elapsedTimeFromStart = TimeSpan.Zero;
         private bool _isMonsterSpawned;
 
@@ -32,6 +33,7 @@ namespace GameJam.InGame.Monster
         public void WireContextAfterInit(GJContextMap contextMap)
         {
             _playerManager = contextMap.GetRegisteredInstance<GJPlayerManager>();
+            _gameResultManager = contextMap.GetRegisteredInstance<GJGameResultManager>();
             contextMap.GetRegisteredInstance<GJUpdateLoopManager>().RegisterUpdatable(this);
         }
 
@@ -115,6 +117,12 @@ namespace GameJam.InGame.Monster
         {
             _spawnedMonsters.Remove(monster);
             monster.DestroyMonsterComponent();
+
+            // The player wins once every spawned monster is dead.
+            if (_isMonsterSpawned && _spawnedMonsters.Count == 0)
+            {
+                _gameResultManager.FinishWithVictory();
+            }
         }
     }
 }

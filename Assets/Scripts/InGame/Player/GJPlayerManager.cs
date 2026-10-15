@@ -17,12 +17,16 @@ namespace GameJam.InGame.Player
         private GJMonsterManager _monsterManager;
         private GJEffectManager _effectManager;
         private GJFlowGauge _flowGauge;
+        private GJGameRecord _gameRecord;
         private GJPlayerComponent _playerComponent;
         private GJInGameParameter _inGameParameter;
         private GJPlayerStateManager _stateManager;
         private int _groundLayerMask;
 
         public bool IsInFlow => _stateManager.CurrentState is GJPlayerStateFlow;
+        // Increases by one on every dash slash. Other managers compare it with their last seen value to react to dashes.
+        public int FlowDashSequence { get; private set; }
+        public Vector2 LastFlowDashDirection { get; private set; }
 
         public GJPlayerManager(GJController.GJControllerParameter parameter)
         {
@@ -41,6 +45,7 @@ namespace GameJam.InGame.Player
             _monsterManager = contextMap.GetRegisteredInstance<GJMonsterManager>();
             _effectManager = contextMap.GetRegisteredInstance<GJEffectManager>();
             _flowGauge = contextMap.GetRegisteredInstance<GJFlowGauge>();
+            _gameRecord = contextMap.GetRegisteredInstance<GJGameRecord>();
             _playerComponent = _parameter.AssetHolder.PlayerComponent;
             _inGameParameter = _parameter.InGameParameter;
             _groundLayerMask = LayerMask.GetMask(GJDefine.GROUND_LAYER_NAME);
@@ -87,6 +92,7 @@ namespace GameJam.InGame.Player
 
         public void BeginFlow()
         {
+            _gameRecord.AddFlowEnterCount();
             _flowGauge.SetLocked(true);
             _playerComponent.SetVelocity(Vector2.zero);
             ApplyFlowGravity();
@@ -121,6 +127,8 @@ namespace GameJam.InGame.Player
 
             var dashDelta = direction * dashDistance;
             _playerComponent.Teleport(_playerComponent.Position + dashDelta);
+            LastFlowDashDirection = direction;
+            FlowDashSequence++;
             return _effectManager.CreateFlowTrail(startCenter, startCenter + dashDelta);
         }
 
