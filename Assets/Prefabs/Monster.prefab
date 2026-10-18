@@ -173,3 +173,4 @@ MonoBehaviour:
   _rigidbody2D: {fileID: -3481942794485362300}
   _collider2D: {fileID: -2650656679726866378}
   _spriteRenderer: {fileID: 4605281210327346467}
+  projectile: {fileID: 4739850687504620161, guid: 1dd6ef12027ac484daa2a5fc242be479, type: 3}

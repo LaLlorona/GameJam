@@ -1516,7 +1516,7 @@ GameObject:
   - component: {fileID: 951903811}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1637,6 +1637,7 @@ MonoBehaviour:
   _rigidbody2D: {fileID: 951903810}
   _boxCollider2D: {fileID: 951903812}
   _spriteRenderer: {fileID: 951903808}
+  isHit: 0
 --- !u!61 &951903812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1838,6 +1839,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1011129955898745188, guid: b04a7fd1d5e574d48bd66892b31b37f4, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 913947171070993033, guid: b04a7fd1d5e574d48bd66892b31b37f4, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -1846,6 +1851,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1386771924}
+    - target: {fileID: 5221983890508701321, guid: b04a7fd1d5e574d48bd66892b31b37f4, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7465282697886031859, guid: b04a7fd1d5e574d48bd66892b31b37f4, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1

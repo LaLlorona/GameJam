@@ -2,6 +2,7 @@ using System;
 using GameJam.InGame.Player;
 using GameJam.InGame.System;
 using UnityEngine;
+using UnityEngine.InputSystem.Interactions;
 using Object = UnityEngine.Object;
 
 namespace GameJam.InGame.Monster
@@ -57,6 +58,18 @@ namespace GameJam.InGame.Monster
             }
         }
 
+        public void SpawnProjectile(Vector2 targetPosition, TimeSpan deltaTime)
+        {
+            var maxDistance = _inGameParameter.MonsterMoveSpeed * (float)deltaTime.TotalSeconds;
+            GameObject cannonBall = Object.Instantiate(_monsterComponent.projectile, _monsterComponent.transform.position, Quaternion.identity);
+            cannonBall.SetActive(true);
+            ProjectileScript proj = cannonBall.gameObject.GetComponent<ProjectileScript>();
+            // Rigidbody rb = cannonBall.GetComponent<Rigidbody>();
+            // rb.AddForce(cannonBall.transform.forward, ForceMode.Impulse);
+            proj.setStuff(targetPosition, maxDistance);
+            // proj.MoveTowards(targetPosition, maxDistance);
+        }
+
         public bool IsOverlapping(Collider2D other)
         {
             return IsDead == false && _monsterComponent.IsOverlapping(other);
@@ -103,5 +116,7 @@ namespace GameJam.InGame.Monster
                 : 0f;
             _monsterComponent.SetDamageBlink(_inGameParameter.MonsterDamageBlinkColor, blinkRatio);
         }
+
+        
     }
 }

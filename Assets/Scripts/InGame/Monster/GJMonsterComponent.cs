@@ -14,6 +14,7 @@ namespace GameJam.InGame.Monster
 
         public Vector2 Position => _rigidbody2D.position;
         public Collider2D Collider => _collider2D;
+        [SerializeField] public GameObject projectile;
 
         public void Init()
         {

@@ -14,6 +14,7 @@ namespace GameJam.InGame.Player
         public Collider2D Collider => _boxCollider2D;
         public Bounds ColliderBounds => _boxCollider2D.bounds;
         public Transform CameraFollowTransform => transform;
+        public bool isHit = false;
         public bool IsFacingRight => _spriteRenderer.flipX == false;
 
         public void SetVelocity(Vector2 velocity)

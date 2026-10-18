@@ -53,6 +53,13 @@ namespace GameJam.InGame.Player
             {
                 OnDamaged();
             }
+
+            //could add to the previous just separating it if it causes future problems
+            if (_playerComponent.isHit)
+            {
+                _playerComponent.isHit = false;
+                OnDamaged();
+            }
         }
 
         private bool IsTouchingAnyMonster()
