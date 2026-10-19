@@ -18,6 +18,7 @@ namespace GameJam.InGame.Player
         private GJEffectManager _effectManager;
         private GJFlowGauge _flowGauge;
         private GJGameRecord _gameRecord;
+        private GJSoundManager _soundManager;
         private GJPlayerComponent _playerComponent;
         private GJInGameParameter _inGameParameter;
         private GJPlayerStateManager _stateManager;
@@ -46,6 +47,7 @@ namespace GameJam.InGame.Player
             _effectManager = contextMap.GetRegisteredInstance<GJEffectManager>();
             _flowGauge = contextMap.GetRegisteredInstance<GJFlowGauge>();
             _gameRecord = contextMap.GetRegisteredInstance<GJGameRecord>();
+            _soundManager = contextMap.GetRegisteredInstance<GJSoundManager>();
             _playerComponent = _parameter.AssetHolder.PlayerComponent;
             _inGameParameter = _parameter.InGameParameter;
             _groundLayerMask = LayerMask.GetMask(GJDefine.GROUND_LAYER_NAME);
@@ -88,6 +90,7 @@ namespace GameJam.InGame.Player
             var direction = GetDirectionToMouse(playerCenter);
             var originPosition = playerCenter + direction * _inGameParameter.SlashProjectileSpawnDistance;
             _projectileManager.FireSlashProjectile(originPosition, direction);
+            _soundManager.PlaySfxRandom(_parameter.AssetHolder.BasicAttackSfxClips);
         }
 
         public void BeginFlow()
@@ -106,13 +109,14 @@ namespace GameJam.InGame.Player
         }
 
         // Teleports toward the mouse, stopping in front of walls, and returns the trail left behind.
+        // Every monster on the trail takes FlowTrailDamage right away (once per dash).
         public GJFlowTrail DashTowardMouse()
         {
             var bounds = _playerComponent.ColliderBounds;
             Vector2 startCenter = bounds.center;
             var direction = GetDirectionToMouse(startCenter);
             var wallSkin = _inGameParameter.FlowDashWallSkin;
-            var dashDistance = _inGameParameter.FlowDashDistance;
+            var dashDistance = _inGameParameter.MaxFlowDashDistance;
 
             // Cast a box shrunk by the skin on each side so a wall or floor the player is already touching is not hit at distance 0.
             var castSize = new Vector2(
@@ -129,7 +133,18 @@ namespace GameJam.InGame.Player
             _playerComponent.Teleport(_playerComponent.Position + dashDelta);
             LastFlowDashDirection = direction;
             FlowDashSequence++;
-            return _effectManager.CreateFlowTrail(startCenter, startCenter + dashDelta);
+            _soundManager.PlaySfxRandom(_parameter.AssetHolder.FlowAttackSfxClips);
+            var trail = _effectManager.CreateFlowTrail(startCenter, startCenter + dashDelta);
+
+            var hitMonsters = _monsterManager.FindAllMonstersAlongSegment(
+                trail.StartPosition,
+                trail.EndPosition,
+                _inGameParameter.FlowTrailHitWidth);
+            foreach (var monster in hitMonsters)
+            {
+                monster.ApplyDamage(_inGameParameter.FlowTrailDamage);
+            }
+            return trail;
         }
 
         public bool IsOverlappingAnyMonster()
@@ -145,19 +160,11 @@ namespace GameJam.InGame.Player
             return false;
         }
 
-        // Every trail damages the monsters it passes through; a monster is hit once per trail.
+        // The trails already dealt their damage when they were created, so they only fade out here.
         public void EndFlow(IReadOnlyList<GJFlowTrail> trails)
         {
             foreach (var trail in trails)
             {
-                var hitMonsters = _monsterManager.FindAllMonstersAlongSegment(
-                    trail.StartPosition,
-                    trail.EndPosition,
-                    _inGameParameter.FlowTrailHitWidth);
-                foreach (var monster in hitMonsters)
-                {
-                    monster.ApplyDamage(_inGameParameter.FlowTrailDamage);
-                }
                 _effectManager.FadeOutFlowTrail(trail);
             }
 

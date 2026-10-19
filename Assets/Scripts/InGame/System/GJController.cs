@@ -43,6 +43,7 @@ namespace GameJam.InGame.System
             _contextMap.Register(new GJPostProcessManager(controllerParameter));
             _contextMap.Register(new GJHUDManager(controllerParameter));
             _contextMap.Register(new GJCameraManager(controllerParameter));
+            _contextMap.Register(new GJSoundManager(controllerParameter));
         }
 
         public async UniTask InitializeGameController()

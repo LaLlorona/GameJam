@@ -6,7 +6,7 @@ using GameJam.InGame.System;
 namespace GameJam.InGame.Player
 {
     // Dash slash: teleports toward the mouse every FlowDashInterval and leaves a trail.
-    // No damage is dealt while dashing; every trail deals its damage at once when Flow ends.
+    // Every dash damages the monsters on its trail right away. The trails stay visible until Flow ends.
     // Ends when the player lands on a monster, after FlowMaxDashCount dashes, or on a left click.
     public class GJPlayerStateFlow : IGJPlayerState
     {

@@ -65,5 +65,10 @@ namespace GameJam.InGame.Monster
             _collider2D = GetComponent<Collider2D>();
             _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         }
+
+        public Vector2 getPosition()
+        {
+            return _rigidbody2D.position;
+        }
     }
 }
