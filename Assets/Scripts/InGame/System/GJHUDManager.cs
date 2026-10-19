@@ -50,7 +50,7 @@ namespace GameJam.InGame.System
         {
             _hudComponent.SetElapsedTime(_gameRecord.ElapsedTime);
             UpdateFlow();
-            UpdateMonsterHp();
+            UpdateMonsterHp(deltaTime);
         }
 
         private void UpdateFlow()
@@ -62,7 +62,7 @@ namespace GameJam.InGame.System
         }
 
         // Shows the HP of the first spawned monster (the boss).
-        private void UpdateMonsterHp()
+        private void UpdateMonsterHp(TimeSpan deltaTime)
         {
             var spawnedMonsters = _monsterManager.SpawnedMonsters;
             if (spawnedMonsters.Count == 0)
@@ -72,7 +72,7 @@ namespace GameJam.InGame.System
 
             var monster = spawnedMonsters[0];
             _hudComponent.SetHudVisible(true);
-            _hudComponent.SetMonsterHp(monster.CurrentHp, monster.MaxHp);
+            _hudComponent.SetMonsterHp(monster.CurrentHp, monster.MaxHp, deltaTime, _parameter.InGameParameter);
         }
     }
 }

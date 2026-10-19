@@ -17,6 +17,13 @@ namespace GameJam.InGame.System
         public const string FLOW_TRAIL_DEFAULT_SHADER_NAME = "Sprites/Default";
         public const int FLOW_TRAIL_SORTING_ORDER = 100;
 
+        // Audio
+        // Group paths in the audio mixer and the names of the exposed volume parameters (dB).
+        public const string BGM_MIXER_GROUP_PATH = "Master/BGM";
+        public const string SFX_MIXER_GROUP_PATH = "Master/SFX";
+        public const string BGM_VOLUME_MIXER_PARAMETER = "BGMVolume";
+        public const string SFX_VOLUME_MIXER_PARAMETER = "SFXVolume";
+
         // Post Process
         // Higher than the default global volume so the Flow look wins while blended in.
         public const float FLOW_VOLUME_PRIORITY = 10f;

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace GameJam.InGame.System
 {
@@ -19,6 +20,9 @@ namespace GameJam.InGame.System
 
         [Header("Camera")]
         [SerializeField, Min(0.01f)] private float _cameraOrthographicSize = 7f;
+        // Orthographic size while in Flow. Blended with CameraOrthographicSize over CameraFlowZoomBlendDuration on enter / exit.
+        [SerializeField, Min(0.01f)] private float _cameraFlowOrthographicSize = 9f;
+        [SerializeField, Min(0f)] private float _cameraFlowZoomBlendDurationSeconds = 0.3f;
         // World offset of the virtual camera from the player.
         // y = 1 keeps the player slightly below the screen center, z = -10 keeps the camera in front of the sprites.
         [SerializeField] private Vector3 _cameraFollowOffset = new(0f, 1f, -10f);
@@ -67,7 +71,8 @@ namespace GameJam.InGame.System
 
         [Header("Flow Dash Slash")]
         [SerializeField, Min(0.01f)] private float _flowDashIntervalSeconds = 0.3f;
-        [SerializeField, Min(0f)] private float _flowDashDistance = 5f;
+        // Distance of one dash toward the cursor. A wall in the way shortens it.
+        [SerializeField, Min(0f), FormerlySerializedAs("_flowDashDistance")] private float _maxFlowDashDistance = 5f;
         // Gap kept between the player and a wall at the end of a dash.
         [SerializeField, Min(0f)] private float _flowDashWallSkin = 0.05f;
         [SerializeField, Min(1)] private int _flowMaxDashCount = 15;
@@ -143,6 +148,38 @@ namespace GameJam.InGame.System
         [SerializeField, Min(0f)] private float _flowDashBurstIntensity = 0.8f;
         [SerializeField, Min(0f)] private float _flowDashBurstDurationSeconds = 0.15f;
 
+        [Header("BGM")]
+        // Volume of the "BGMVolume" mixer parameter in dB. Ignored when GJAssetHolder has no audio mixer.
+        [SerializeField, Range(-80f, 0f)] private float _bgmMixerVolumeDb = 0f;
+        [SerializeField, Range(0f, 1f)] private float _bgmVolume = 0.6f;
+        // Volume multiplier while muffled (outside Flow). 1 = same volume as in Flow.
+        [SerializeField, Range(0f, 1f)] private float _bgmMuffledVolumeMultiplier = 0.6f;
+        // Low pass cutoff in Hz. Muffled = "listening underwater" outside Flow, open = clear sound in Flow.
+        [SerializeField, Range(10f, 22000f)] private float _bgmMuffledCutoffFrequency = 700f;
+        [SerializeField, Range(10f, 22000f)] private float _bgmOpenCutoffFrequency = 22000f;
+        [SerializeField, Range(1f, 10f)] private float _bgmMuffledResonanceQ = 1.5f;
+        [SerializeField, Range(1f, 10f)] private float _bgmOpenResonanceQ = 1f;
+        // Time to blend between muffled and open when entering / leaving Flow.
+        [SerializeField, Min(0f)] private float _bgmFlowBlendDurationSeconds = 0.4f;
+
+        [Header("SFX")]
+        // Volume of the "SFXVolume" mixer parameter in dB. Ignored when GJAssetHolder has no audio mixer.
+        // Normal = outside Flow, Flow = inside Flow. They are blended over BgmFlowBlendDuration when entering / leaving Flow.
+        [SerializeField, Range(-80f, 20f)] private float _sfxMixerVolumeDb = 0f;
+        [SerializeField, Range(-80f, 20f)] private float _sfxFlowMixerVolumeDb = 3f;
+        // Each play is pitched randomly within 1 +/- this value so repeated sounds do not feel identical.
+        [SerializeField, Range(0f, 0.5f)] private float _sfxPitchVariation = 0.05f;
+        [SerializeField, Range(0f, 1f)] private float _sfxVolume = 1f;
+        // Read once at start. Number of sounds that can overlap.
+        [SerializeField, Min(1)] private int _sfxPoolSize = 8;
+
+        [Header("HUD")]
+        // Monster HP trail (white bar). It waits this long after the first damage before it starts to drain.
+        [SerializeField, Min(0f)] private float _hpTrailHoldSeconds = 0.5f;
+        // Drain speed in bar widths per second. The speed is the larger of the minimum speed and gap * speed per gap.
+        [SerializeField, Min(0f)] private float _hpTrailMinSpeed = 0.3f;
+        [SerializeField, Min(0f)] private float _hpTrailSpeedPerGap = 3f;
+
         [Header("Monster")]
         // Time from game start until the monster is spawned at GJAssetHolder.MonsterSpawnPoint.
         [SerializeField, Min(0f)] private float _monsterSpawnDelaySeconds = 3f;
@@ -161,6 +198,8 @@ namespace GameJam.InGame.System
         public float GroundCheckWidthRatio => _groundCheckWidthRatio;
 
         public float CameraOrthographicSize => _cameraOrthographicSize;
+        public float CameraFlowOrthographicSize => _cameraFlowOrthographicSize;
+        public TimeSpan CameraFlowZoomBlendDuration => TimeSpan.FromSeconds(_cameraFlowZoomBlendDurationSeconds);
         public Vector3 CameraFollowOffset => _cameraFollowOffset;
 
         public TimeSpan CameraShakeDuration => TimeSpan.FromSeconds(_cameraShakeDurationSeconds);
@@ -189,7 +228,7 @@ namespace GameJam.InGame.System
         public float FlowGaugeDecayAmountPerTick => _flowGaugeDecayAmountPerTick;
 
         public TimeSpan FlowDashInterval => TimeSpan.FromSeconds(_flowDashIntervalSeconds);
-        public float FlowDashDistance => _flowDashDistance;
+        public float MaxFlowDashDistance => _maxFlowDashDistance;
         public float FlowDashWallSkin => _flowDashWallSkin;
         public int FlowMaxDashCount => _flowMaxDashCount;
         public float FlowGravityScaleMultiplier => _flowGravityScaleMultiplier;
@@ -204,6 +243,24 @@ namespace GameJam.InGame.System
         public TimeSpan FlowPostProcessBlendDuration => TimeSpan.FromSeconds(_flowPostProcessBlendDurationSeconds);
         public float FlowGaugePreviewMaxWeight => _flowGaugePreviewMaxWeight;
         public TimeSpan FlowGaugePreviewBlendDuration => TimeSpan.FromSeconds(_flowGaugePreviewBlendDurationSeconds);
+        public TimeSpan HpTrailHoldDuration => TimeSpan.FromSeconds(_hpTrailHoldSeconds);
+        public float HpTrailMinSpeed => _hpTrailMinSpeed;
+        public float HpTrailSpeedPerGap => _hpTrailSpeedPerGap;
+
+        public float BgmMixerVolumeDb => _bgmMixerVolumeDb;
+        public float SfxMixerVolumeDb => _sfxMixerVolumeDb;
+        public float SfxFlowMixerVolumeDb => _sfxFlowMixerVolumeDb;
+        public float SfxPitchVariation => _sfxPitchVariation;
+        public float SfxVolume => _sfxVolume;
+        public int SfxPoolSize => _sfxPoolSize;
+        public float BgmVolume => _bgmVolume;
+        public float BgmMuffledVolumeMultiplier => _bgmMuffledVolumeMultiplier;
+        public float BgmMuffledCutoffFrequency => _bgmMuffledCutoffFrequency;
+        public float BgmOpenCutoffFrequency => _bgmOpenCutoffFrequency;
+        public float BgmMuffledResonanceQ => _bgmMuffledResonanceQ;
+        public float BgmOpenResonanceQ => _bgmOpenResonanceQ;
+        public TimeSpan BgmFlowBlendDuration => TimeSpan.FromSeconds(_bgmFlowBlendDurationSeconds);
+
         public float FlowPostExposure => _flowPostExposure;
         public float FlowContrast => _flowContrast;
         public Color FlowColorFilter => _flowColorFilter;

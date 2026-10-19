@@ -18,6 +18,8 @@ namespace GameJam.InGame.System
         private CinemachineFollow _follow;
         private CinemachineConfiner2D _confiner;
         private float _appliedOrthographicSize;
+        // 0 = normal orthographic size, 1 = Flow orthographic size.
+        private float _flowZoomBlend;
 
         private GJPlayerManager _playerManager;
         private CinemachineCameraOffset _shakeOffset;
@@ -82,6 +84,12 @@ namespace GameJam.InGame.System
         // Applied every frame so lens / offset edits in the inspector take effect immediately.
         public void GameUpdate(TimeSpan deltaTime)
         {
+            var blendSeconds = (float)_inGameParameter.CameraFlowZoomBlendDuration.TotalSeconds;
+            var target = _playerManager.IsInFlow ? 1f : 0f;
+            _flowZoomBlend = blendSeconds > 0f
+                ? Mathf.MoveTowards(_flowZoomBlend, target, (float)deltaTime.TotalSeconds / blendSeconds)
+                : target;
+
             ApplyParameter();
             UpdateShake(deltaTime);
         }
@@ -163,7 +171,9 @@ namespace GameJam.InGame.System
 
         private void ApplyParameter()
         {
-            var orthographicSize = _inGameParameter.CameraOrthographicSize;
+            // Smoothstep so the zoom eases in and out instead of starting and stopping abruptly.
+            var easedBlend = Mathf.SmoothStep(0f, 1f, _flowZoomBlend);
+            var orthographicSize = Mathf.Lerp(_inGameParameter.CameraOrthographicSize, _inGameParameter.CameraFlowOrthographicSize, easedBlend);
             _inGameVirtualCamera.Lens.OrthographicSize = orthographicSize;
             _follow.FollowOffset = _inGameParameter.CameraFollowOffset;
 

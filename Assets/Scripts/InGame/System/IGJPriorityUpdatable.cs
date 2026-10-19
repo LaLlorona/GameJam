@@ -16,6 +16,7 @@ namespace GameJam.InGame.System
         PostProcessUpdate = 8,
         HUDUpdate = 9,
         CameraUpdate = 10,
+        SoundUpdate = 11,
         EffectUpdate = 100,
     }
 
