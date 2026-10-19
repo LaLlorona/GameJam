@@ -2,6 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using GameJam.InGame.Monster;
 using GameJam.InGame.System;
+using UnityEngine;
 
 namespace GameJam.InGame.Player
 {
@@ -15,6 +16,7 @@ namespace GameJam.InGame.Player
         private GJGameRecord _gameRecord;
         private GJPlayerComponent _playerComponent;
         private GJInGameParameter _inGameParameter;
+        private GJPlayerMovementManager _movementManager;
         private TimeSpan _leftInvincibleTime = TimeSpan.Zero;
 
         public bool IsInvincible => _leftInvincibleTime > TimeSpan.Zero;
@@ -34,6 +36,7 @@ namespace GameJam.InGame.Player
             _monsterManager = contextMap.GetRegisteredInstance<GJMonsterManager>();
             _flowGauge = contextMap.GetRegisteredInstance<GJFlowGauge>();
             _gameRecord = contextMap.GetRegisteredInstance<GJGameRecord>();
+            _movementManager = contextMap.GetRegisteredInstance<GJPlayerMovementManager>();
             _playerComponent = _parameter.AssetHolder.PlayerComponent;
             _inGameParameter = _parameter.InGameParameter;
             contextMap.GetRegisteredInstance<GJUpdateLoopManager>().RegisterUpdatable(this);
@@ -43,42 +46,53 @@ namespace GameJam.InGame.Player
 
         public void GameUpdate(TimeSpan deltaTime)
         {
+            var touchingMonster = IsTouchingAnyMonster();
             if (IsInvincible)
             {
                 UpdateInvincible(deltaTime);
                 return;
             }
 
-            if (IsTouchingAnyMonster())
+            if (touchingMonster != null)
             {
-                OnDamaged();
+                OnDamaged(touchingMonster);
+                return;
             }
 
             //could add to the previous just separating it if it causes future problems
             if (_playerComponent.isHit)
             {
                 _playerComponent.isHit = false;
-                OnDamaged();
+                OnDamaged(null);
             }
         }
 
-        private bool IsTouchingAnyMonster()
+        private GJMonster IsTouchingAnyMonster()
         {
             var playerCollider = _playerComponent.Collider;
             foreach (var monster in _monsterManager.SpawnedMonsters)
             {
                 if (monster.IsOverlapping(playerCollider))
                 {
-                    return true;
+                    return monster;
                 }
             }
-            return false;
+            return null;
         }
 
-        private void OnDamaged()
+        private void OnDamaged(GJMonster monster)
         {
             _gameRecord.AddDamagedCount();
             _flowGauge.LoseFlowOnDamaged();
+            if(monster != null)
+            {
+                Vector2 direction = _playerComponent.transform.position - (Vector3)monster.Position;
+                if(direction.sqrMagnitude > 0f)
+                {
+                    direction.Normalize();
+                    _movementManager.ApplyKnockback(direction, 8f, 0.4f);
+                }
+            }
             _leftInvincibleTime = _inGameParameter.PlayerInvincibleDuration;
         }
 

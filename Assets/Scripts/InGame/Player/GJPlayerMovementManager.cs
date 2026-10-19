@@ -14,6 +14,10 @@ namespace GameJam.InGame.Player
         private int _groundLayerMask;
         private int _remainingJumpCount;
         private bool _wasGrounded;
+        private float _knockbackVelocityX;
+        private float _knockbackVelocityY;
+        private float _knockbackRemainingTime;
+        public bool ISKnockbackActive => _knockbackRemainingTime > 0f;
 
         public bool IsGrounded { get; private set; }
 
@@ -53,6 +57,16 @@ namespace GameJam.InGame.Player
             var velocity = _playerComponent.Velocity;
             UpdateJumpCount(velocity);
 
+            if (ISKnockbackActive)
+            {
+                _knockbackRemainingTime -= (float)deltaTime.TotalSeconds;
+                velocity.x = _knockbackVelocityX;
+                // Don't override upward velocity from a jump.
+                velocity.y = Mathf.Max(velocity.y, _knockbackVelocityY); 
+                _playerComponent.SetVelocity(velocity);
+                return;
+            }
+
             var horizontalAxis = _inputManager.HorizontalAxis;
             velocity.x = horizontalAxis * _inGameParameter.PlayerMoveSpeed;
             if (horizontalAxis != 0f)
@@ -67,6 +81,17 @@ namespace GameJam.InGame.Player
             }
 
             _playerComponent.SetVelocity(velocity);
+        }
+
+        public void ApplyKnockback(Vector2 direction, float force, float duration)
+        {
+            if(direction.sqrMagnitude > 0f)
+            {
+                direction.Normalize();
+            }
+            _knockbackVelocityX = direction.x * force;
+            _knockbackVelocityY = direction.y * force; 
+            _knockbackRemainingTime = duration;
         }
 
         private void UpdateJumpCount(Vector2 velocity)

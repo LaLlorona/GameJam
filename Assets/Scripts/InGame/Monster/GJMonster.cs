@@ -19,6 +19,7 @@ namespace GameJam.InGame.Monster
         public int MaxHp { get; }
         public int CurrentHp { get; private set; }
         public bool IsDead => CurrentHp <= 0;
+        public Vector2 Position => _monsterComponent.Position;
 
         public GJMonster(
             GJMonsterComponent monsterPrefab,
