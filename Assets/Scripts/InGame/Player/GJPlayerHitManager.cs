@@ -84,14 +84,20 @@ namespace GameJam.InGame.Player
         {
             _gameRecord.AddDamagedCount();
             _flowGauge.LoseFlowOnDamaged();
+            Vector2 sourcePosition;
             if(monster != null)
             {
-                Vector2 direction = _playerComponent.transform.position - (Vector3)monster.Position;
-                if(direction.sqrMagnitude > 0f)
-                {
-                    direction.Normalize();
-                    _movementManager.ApplyKnockback(direction, 8f, 0.4f);
-                }
+                sourcePosition = monster.Position;
+            }
+            else
+            {
+                sourcePosition = _playerComponent.HitSourcePosition;
+            }
+            Vector2 direction = (Vector2)_playerComponent.transform.position - sourcePosition;
+            if(direction.sqrMagnitude > 0f)
+            {
+                direction.Normalize();
+                _movementManager.ApplyKnockback(direction, 10f, 0.4f);
             }
             _leftInvincibleTime = _inGameParameter.PlayerInvincibleDuration;
         }

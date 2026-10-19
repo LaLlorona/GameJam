@@ -16,6 +16,7 @@ namespace GameJam.InGame.Player
         public Transform CameraFollowTransform => transform;
         public bool isHit = false;
         public bool IsFacingRight => _spriteRenderer.flipX == false;
+        public Vector2 HitSourcePosition{get;set;}
 
         public void SetVelocity(Vector2 velocity)
         {

@@ -53,10 +53,16 @@ using Object = UnityEngine.Object;
             //Debug.Log(collision.gameObject.name);
             if (collision.gameObject.CompareTag("Ground")) {
                 Destroy(gameObject);
+                return;
             }
             if (collision.gameObject.CompareTag("Player1")) {
                 GJPlayerComponent player = collision.gameObject.GetComponent<GJPlayerComponent>();
+                if(player != null)
+            {
+                player.HitSourcePosition = Position;
                 player.isHit = true;
+
+            }
                 Destroy(gameObject);
             }
         }

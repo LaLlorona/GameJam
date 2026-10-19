@@ -55,7 +55,7 @@ namespace GameJam.InGame.System
 
         [Header("Player Hit")]
         // Invincible time after touching a monster. Without it a single contact would count as a hit every frame.
-        [SerializeField, Min(0f)] private float _playerInvincibleDurationSeconds = 1f;
+        [SerializeField, Min(0f)] private float _playerInvincibleDurationSeconds = 1.5f;
         [SerializeField, Min(0f)] private float _playerInvincibleBlinkIntervalSeconds = 0.1f;
 
         [Header("Flow Gauge")]
