@@ -2092,6 +2092,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1386771924}
+    - target: {fileID: 5221983890508701321, guid: b04a7fd1d5e574d48bd66892b31b37f4, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7465282697886031859, guid: b04a7fd1d5e574d48bd66892b31b37f4, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1

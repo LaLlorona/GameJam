@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem.Interactions;
 using Object = UnityEngine.Object;
 
+
 namespace GameJam.InGame.Monster
 {
     // Logic of a single monster: HP, state machine and damage blink.
@@ -47,9 +48,9 @@ namespace GameJam.InGame.Monster
             UpdateDamageBlink(deltaTime);
         }
 
-        public void MoveToward(Vector2 targetPosition, TimeSpan deltaTime)
+        public void MoveToward(Vector2 targetPosition, TimeSpan deltaTime, float mult)
         {
-            var maxDistance = _inGameParameter.MonsterMoveSpeed * (float)deltaTime.TotalSeconds;
+            var maxDistance = _inGameParameter.MonsterMoveSpeed * (float)deltaTime.TotalSeconds * mult;
             _monsterComponent.MoveTowards(targetPosition, maxDistance);
             var deltaX = targetPosition.x - _monsterComponent.Position.x;
             if (Mathf.Approximately(deltaX, 0f) == false)
@@ -115,6 +116,11 @@ namespace GameJam.InGame.Monster
                 ? Mathf.Clamp01((float)(_leftDamageBlinkTime.TotalSeconds / blinkDuration.TotalSeconds))
                 : 0f;
             _monsterComponent.SetDamageBlink(_inGameParameter.MonsterDamageBlinkColor, blinkRatio);
+        }
+
+        public Vector2 getPosition()
+        {
+            return _monsterComponent.getPosition();
         }
 
         
