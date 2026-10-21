@@ -5,6 +5,7 @@ using System.Threading;
 using System.Collections;
 using UnityEditor.Rendering.LookDev;
 using UnityEngine.Splines;
+using System.Threading.Tasks;
 
 namespace GameJam.InGame.Monster
 {
@@ -23,11 +24,13 @@ namespace GameJam.InGame.Monster
         float chargeTimer = 0f;
         bool charging = false;
         bool cooldown = false;
+        private readonly GJMonsterComponent _monsterComponent;
 
-        public GJMonsterStateChase(GJMonster monster, GJPlayerComponent playerComponent)
+        public GJMonsterStateChase(GJMonster monster, GJPlayerComponent playerComponent, GJMonsterComponent monsterComponent)
         {
             _monster = monster;
             _playerComponent = playerComponent;
+            _monsterComponent = monsterComponent;
             RandomizeTarget();
         }
 
@@ -49,10 +52,12 @@ namespace GameJam.InGame.Monster
                 ShootTimer -= (float)deltaTime.TotalSeconds;
             } else if (ShootTimer > 0 && ShootTimer <= 1)
             {
+                _monsterComponent.m_Animator.ResetTrigger("explode");
                 cooldown = false;
                 if (whyisntthisamonobehaviorscript > 3){
                     ShootTimer = 0f;
                     whyisntthisamonobehaviorscript = 0;
+                    
                     if (UnityEngine.Random.Range(chancetocharge, 5) == 5)
                     {
                         chargeTimer = 2f; // windup animation
@@ -83,6 +88,7 @@ namespace GameJam.InGame.Monster
                 chargeTimer -= (float)deltaTime.TotalSeconds;
             } else if (chargeTimer > 0 && chargeTimer <= 1)
             {
+                _monsterComponent.m_Animator.SetTrigger("charging");
                 charging = true;
                 mult = 3f;
                 target = _playerComponent.ColliderBounds.center;
@@ -91,7 +97,9 @@ namespace GameJam.InGame.Monster
             
             if (_monster.getPosition() == target && whyisntthisamonobehaviorscript == 0 && charging == true)
             {
-                
+                _monsterComponent.m_Animator.ResetTrigger("charging");
+                _monsterComponent.m_Animator.SetTrigger("explode");
+                //await Awaitable.WaitForSecondsAsync(0.3f);
                 Vector2[] directions = {
                     new Vector2(0, 1),    // North
                     new Vector2(1, 1).normalized,  // Northeast
@@ -112,7 +120,6 @@ namespace GameJam.InGame.Monster
                 charging = false;
                 cooldown = true;
                 mult = 1f;
-                
                 chancetocharge = 0;
             } else if (_monster.getPosition() == target && whyisntthisamonobehaviorscript == 0 && cooldown == false)
             {

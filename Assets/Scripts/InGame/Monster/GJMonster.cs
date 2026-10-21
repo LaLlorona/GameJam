@@ -1,6 +1,7 @@
 using System;
 using GameJam.InGame.Player;
 using GameJam.InGame.System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem.Interactions;
 using Object = UnityEngine.Object;
@@ -35,7 +36,7 @@ namespace GameJam.InGame.Monster
             MaxHp = inGameParameter.MonsterMaxHp;
             CurrentHp = MaxHp;
             _monsterComponent.Init();
-            _stateManager = new GJMonsterStateManager(new GJMonsterStateChase(this, playerComponent));
+            _stateManager = new GJMonsterStateManager(new GJMonsterStateChase(this, playerComponent, _monsterComponent));
         }
 
         // deltaTime is already scaled by the Flow slowdown, so every monster timer must use it.
@@ -56,7 +57,7 @@ namespace GameJam.InGame.Monster
             var deltaX = targetPosition.x - _monsterComponent.Position.x;
             if (Mathf.Approximately(deltaX, 0f) == false)
             {
-                _monsterComponent.SetFacing(deltaX > 0f);
+                _monsterComponent.SetFacing(deltaX < 0f);
             }
         }
 

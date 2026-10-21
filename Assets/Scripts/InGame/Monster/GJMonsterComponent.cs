@@ -16,6 +16,8 @@ namespace GameJam.InGame.Monster
         public Collider2D Collider => _collider2D;
         [SerializeField] public GameObject projectile;
 
+        [SerializeField] public Animator m_Animator;
+
         public void Init()
         {
             _rigidbody2D.bodyType = RigidbodyType2D.Kinematic;
