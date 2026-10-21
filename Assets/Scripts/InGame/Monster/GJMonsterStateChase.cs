@@ -85,10 +85,11 @@ namespace GameJam.InGame.Monster
             }
             if (chargeTimer > 1)
             {
+                _monsterComponent.m_Animator.SetTrigger("charging");
                 chargeTimer -= (float)deltaTime.TotalSeconds;
             } else if (chargeTimer > 0 && chargeTimer <= 1)
             {
-                _monsterComponent.m_Animator.SetTrigger("charging");
+                _monsterComponent.m_Animator.ResetTrigger("charging");
                 charging = true;
                 mult = 3f;
                 target = _playerComponent.ColliderBounds.center;
@@ -97,7 +98,7 @@ namespace GameJam.InGame.Monster
             
             if (_monster.getPosition() == target && whyisntthisamonobehaviorscript == 0 && charging == true)
             {
-                _monsterComponent.m_Animator.ResetTrigger("charging");
+                //_monsterComponent.m_Animator.ResetTrigger("charging");
                 _monsterComponent.m_Animator.SetTrigger("explode");
                 //await Awaitable.WaitForSecondsAsync(0.3f);
                 Vector2[] directions = {
