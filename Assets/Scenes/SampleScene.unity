@@ -1064,7 +1064,7 @@ MonoBehaviour:
   _hpTrailHoldSeconds: 0.5
   _hpTrailMinSpeed: 0.3
   _hpTrailSpeedPerGap: 0.5
-  _monsterSpawnDelaySeconds: 3
+  _monsterSpawnDelaySeconds: 1
   _monsterMaxHp: 1000
   _monsterMoveSpeed: 50
   _monsterDamageBlinkDurationSeconds: 0.15
